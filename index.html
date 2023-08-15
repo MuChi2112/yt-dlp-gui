@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html>
 
+
+
 <head>
     <meta charset="UTF-8">
     <title>YT-DLP GUI</title>
@@ -14,6 +16,9 @@
         }
 
     </style>
+
+    <link rel="stylesheet" href="main.css">
+
 </head>
 
 <body>
@@ -49,13 +54,17 @@
 
         <div class="input-group">
             <label for="videoStartTime">Video start time:</label>
-            <input type="text" id="videoStartTime">
+            <input class="timeInput" type="text" id="videoStartTime_hour" placeholder="hh">
+            <input class="timeInput" type="text" id="videoStartTime_min" placeholder="mm">
+            <input class="timeInput" type="text" id="videoStartTime_sec" placeholder="ss">
         </div>
 
 
         <div class="input-group">
             <label for="videoEndTime">Video end time:</label>
-            <input type="text" id="videoEndTime">
+            <input class="timeInput" type="text" id="videoEndTime_hour" placeholder="hh">
+            <input class="timeInput" type="text" id="videoEndTime_min" placeholder="mm">
+            <input class="timeInput" type="text" id="videoEndTime_sec" placeholder="ss">
         </div>
 
         <div class="output-area">
